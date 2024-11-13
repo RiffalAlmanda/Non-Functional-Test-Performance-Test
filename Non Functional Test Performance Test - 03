@@ -1,0 +1,53 @@
+Type Performance Testing
+
+Load Testing
+
+Load Testing adalah proses pengujian software non-fungsional di mana kinerja aplikasi software
+diuji di bawah load tertentu yang diharapkan. ini menentukan bagaimana aplikasi software berperilaku saat diakses oleh banyak pengguna secara bersamaan.
+
+Tujuan dari Load Test adalah untuk meningkatkan bottlenecks kinerja dan untuk memastikan stabilitas dan kelancaran fungsi aplikasi software sebelum deployment.
+
+Goals of Loaf Testing
+Load Testing mengidentifikasi masalah berikut sebelum merilis aplikasi ke pasar atau Live Environment (Production):
+* Waktu respons untuk setiap transaksi
+* Kinerja komponen Sistem di bawah berbagai load
+* Kinerja komponen Database dibawah load yang berbeda
+* Delay jaringan antara client dan server
+* Masalah desain software
+* Masalah konfigurasi server seperti server Web, server aplikasi, server database, dll
+* Masalah keterbatasan perangkat keras seperti masksimalisasi CPU, keterbatasan memori,network bottleneck, dll
+
+Stress Testing
+* Teknik ini dilakukan untuk mengetahui ketahanan software atau sistem saat digunakan melampui batas operasi normal.
+* Dalam kondisi ekstreem ini, developer jadi tahu stabilitas dan reliabilitas dari sebuah sistem.
+* Tes ini juga melihat apakah sistem bisa beroperasi normal lagi setelah diharuskan berfungsi melewati batas normalnya.
+
+Stress Testing Dilakukan?
+ada beberapa alasan mengapa stress testing dilakukan, di antaranya adalah sebagai berikut:
+* Mengecek apakah sistem bisa bekerja dengan baik saat kondisi di luar batas normal.
+* Memastikan error message ditampilkan saat sistem mengalami stres.
+* Menghindari revenue loss akibat sistem yang tidak  mampu bekerja saat kondisi ekstrim
+* Mempelajari behavior sistem saatmengalami load besar.
+* Mengetahui batas jumlah user, request, dan lainnya yang bisa dikelola sistem sebelum error.
+
+Spike Testing
+- Spike Testing adalah kenis pengujian perangkat lunak di  mana aplikasi perangkat lunak diiuji dengan kenaikan dan penurunan ekstrim dalam beban traffic.
+- Tujuan utama pengujian lonjakan adalah unutk mengevaluasi perilaku aplikasi perangkat lunak di bawah kenaikan atau penurunan mendadak dalam beban pengguna dan menentukan waktu pemulihan setelahlonjakan beban pengguna.
+
+Goal of Spike Testing
+- Tujuan lain Spike Testing adalah untuk melihat bagaimana sistem merespons naik turunya beban pengguna yang tidak terduga. dalam Rekaya Perangkat Lunak, pengujian Spike membantu menentukan kinerja sistem akan memburuk ketika ada beban tinggi yang tiba-tiba.
+-Selain itu Spike Testing dapat menentukan waktu pemulihan. Di antara dua lonjakan trafic pengguna yang berurutan, sistem membutuhkan waktu untuk menstabilkan. waktu pemulihan ini harus serendah mungkin.
+
+Example of Spike Testing Scenarios
+* Ketika konten tertentu dari sebuah situs menjadi viral di internet.
+* Sistem baru rilis untuk produksi, dan banyak pengguna ingin mengakses sistem.
+* Pemadaman listrik dapat menyebabkan semua pengguna kehilangan akses ke sistem. Setelah masalah pemadaman diselesaikan semua pengguna kemudian masuk kembali ke sistem secara bersamaan.
+
+Endurance Testing
+- Endurance Testing adalah jenis pengujian perangkat lunak non-fungsional di mana perangkat lunak diuji dengan beban tinggi yang diperpanjang selama waktu yang signifikasn untuk mengevaluasi perilaku aplikasi
+perangkat lunak dalam pengunaan berkelanjutan.
+- Tujuan utama pengujian daya tahan adalah untuk memastikan bahwa aplikasi cukup mampu menangani beban yang di perpanjang tanpa penurunan waktu respons.
+
+Capacity Testing
+- Capacity Testing memastikan bahwa aplikasi dan lingkungan dapat dengan lancar menangani jumlah maksimum pengguna atau transksi sesuai dengan persyaratan kinerja yang ditentukan dalam perjanjian tingkat layanan (SLA) Anda.
+Pengujian kapasitas ditujukan untuk menguji kapasitas maksimum sistem anda dalam hal lalu lintas, sambil tetap dapat memberikan pengalaman pengguna yang optimal.
