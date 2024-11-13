@@ -1,0 +1,14 @@
+Test Metrics
+
+Performance Test Attribute
+* Speed - MEnentukan apakah aplikasi merespons dengan cepat.
+* Scalability - menentukan jumlah (beban) pengguna maksimum yang dapat tangani oleh software/server
+* Stability- Menentukan apakah aplikasi stabil di bawah beban yang bervariasi.
+
+Performa Test Metrics
+* Response Time : Waktu yang dibutuhkan antara request dan response oleh sistem
+* latency : waktu tunggu proses request
+* Error rate : persentase request yang menghasilkan error dibandingkan dengan jumlah total request (Response status code 400,404,500) 
+* HTTPS response per second : kapasitas proses request dan memberikan response http per detik
+* Bandwich : menghitung performa network
+
