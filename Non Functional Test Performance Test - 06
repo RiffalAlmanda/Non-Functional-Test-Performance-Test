@@ -1,0 +1,20 @@
+Performance Test Case
+* Test Case 01 : Verifikasi waktu respons tidak lebih dari 4 detik ketika 1000 pengguna mengakses situs web secara bersamaan
+* Test Case 02 : Waktu eksekusi ketika 500 record dibaca/ditulis secara bersamaan.
+* Test Case 03 : Mengevaluasi apakah aplikasi menangani su mber daya sistem, seperti CPU dan memori, tanpa membuat crash atau melelahkan ratusan pengguna.
+* Test Case 04 : Menilai sistem tetap stabil dalam jangka waktu lama sambil terus menjalankan transaksi pengguna selama lebih dari 24 jam.
+* Test Case 05 : Periksa apakah sistem mendukung penskalaan bertahap jumlah server aplikasi untuk memantau distribusi beban dan kinerja.
+
+Tips for Performance Testing
+* Pisahkan testing environment dari UAT Environment.
+* Pilih testing tools terbaik untuk mengotomatiskan performance.
+* jalankan test beberapa kali untuk mengukur kinerja aplikasi secara akurat.
+* Jangan mengubah testing environment sampai testing berakhir.
+
+Performance Testing Challlenges
+* Beberapa Tools hanya mendukung aplikasi berbasis web.
+* Bebereapa tools gratis mungkin tidak berfungsi dengan baik, atau sebagian besar tools berbayar harganya mahal
+* Tools memiliki kompabilitas terbatas.
+* Hanya ada tools terbatas untuk menguji aplikasi yang kompleks.
+* Organisasi harus melihat batasan CPU, network, penggunaan disk, memori, dan OS (server configuration)
+* Masalah kinerja lainnya mencakup waktu respons yang lama,waktu loading hardware yang tidak mencukupi, dan skalabilitas yang buruk.
