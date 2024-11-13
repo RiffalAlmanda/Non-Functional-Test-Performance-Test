@@ -1,0 +1,49 @@
+Non - Functional Testing
+
+- Poin Belajar
+* Non Functional Test
+* Perfomance Test
+* Type Performance
+* Test Metrics
+* Performance Test Lifecyle
+* Performance Test Report
+* Performance Test Case
+
+Non - Functionsl Testing Adalah jenis dari Software testing unutk mengecek aspek non-fungsional seperti performance, usability, reliability dll dalam sebuah software application.
+Metode ini di rancang untuk menguji kesiapan sistem sesuai parameter non -fungsional yang tidak pernah di tangani oleh tes fungsional.
+
+Objectives of Non - Functional Testing
+- Tes non-fungsional harus meningkatkan kegunaan, efisiensi,pemeliharaan, dan portalbilitas produk.
+- Membantu mengurangi risiko produksi dan biaya yang terkait dengan aspek non-fungsional produk.
+- Optimalkan cara produk dipasang, disiapkan, dijalankan, dikelola, dan dipantau.
+- Kumpulkan dan hasilkan pengukuran, dan metrik untuk penelitian dan pengembangan internal.
+- Memperbaiki dan meningkatkan pengetahuan tentang perilaku produk dan teknologi yang di gunakan.
+
+Characteristics of Non-Functional Testing
+- Pengujian non-fungsional harus dapat diukur,sehingga tidak ada tempat untuk karakterisasi subjektif seperti baik, lebih baik, terbaik, dll.
+- Angka eksak tidak mungkin diketahui pada awal proses persyaratan
+- Penting untuk memprioritaskan persyaratan.
+- Pastikan bahwa atribut kualitas diindentifikasi dengan benar dalam Software Engineering.
+ 
+ Non-Functional Example
+1) Security
+ Parameter mendefinisikan bagaimana sistem dilindungi dari serangan yang disengaja dan tiba-tiba dari sumber internal dan eksternal. ini diuji melalui Security Testing.
+2) Reliability
+Mengecek sejauh mana setiap sistem software secara terus menerus dapat melakukan fungsi yang telah ditentukan tanpa kegagalan. ini diuji dengan Reliability Testing.
+3) Survivability
+Parameter yang memeriksa apakah sistem software terus berfungsi dan memulihkan dirinya sendiri jika terjadi kegagalan sistem. ini diuji melalui REcovery Testing.
+4) Availability
+Parameter menentukan sejauh mana pengguna dapat bergantung pada sistem selama operasinya. ini diuji melalui Stability Testing.
+5) Usability 
+Kemudahan dimana pengguna dapat mempelajari, mengoprasika, menyiapkan input dan output melalui interaksi dengan sistem. ini diuji dengan Usability Testing.
+6) Scalability:
+Istilah ini mengacu pada tingkat dimana setiap aplikasi perangkat lunak dapat memperluas kapasitas pemrosesannya untuk memenuhi pengingkatan permintaan, ini diuji dengan Scalability Testing.
+7) Interoperability:
+Parameter non-fungsional ini memeriksa antarmuka sistem perangkat lunak dengan sistem perangkat lunak lain. ini diperiksa oleh interoperability Testing.
+8) Mengecek sejauh mana setiap sistem perangkat lunak dapat menangani kapasitas, kuantitas, dan waktu respon.
+9) Flexibility
+Istilah ini mengacu pada kemudahan aplikasi dapat bekerja dalam konfigurasi hardware dan software yang berbeda. seperti RAM minimum, Persyaratan CPU
+10) Portalbility
+Flexsibilitas software untuk ditransfer dari lingkungan hardware atau software saat ini.
+11) Reusability:
+Ini mengacu pada bagian dari sistem software yag dapat dikonversi untuk digunakan dalam alpikasi lain.
